@@ -1,0 +1,63 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background-color:#b2dbef;
+    background: url('../img/firs_displey_back_2.png') no-repeat 100%/cover;
+    background-position: -200px;
+    padding-top: 250px;
+
+    .btn {
+        height: auto;
+    }
+
+    &__position {
+        position: relative;
+        float:right;
+        margin-right: auto;
+    }
+    
+    &__tittle {
+        width: 450px;
+        margin-top: 10px;
+
+    }
+
+    &__subtitle {
+        position: relative;
+        padding-left: 10px;
+        z-index: 2;
+        &:before {
+            content:' ';
+            position: absolute;
+            z-index: -1;
+            top: -50%;
+            left: 0;
+            width: 56px;
+            height: 56px;
+            border-radius: 100%;
+            background: #b2dbef;
+    
+        }
+
+    }
+
+    &__btns {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 400px;
+
+
+    }
+
+    &__link {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}

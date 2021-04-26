@@ -1,0 +1,34 @@
+
+
+@import '../base/variables';
+@import '../block/promo';
+@import '../block/title';
+@import '../block/butons';
+@import '../block/mixins';
+@import '../block/slidepanel';
+@import '../block/menu';
+@import '../block/about';
+@import '../block/resume';
+@import '../block/portfolio';
+@import '../block/price';
+@import '../block/contacs';
+@import '../block/media';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.divider {
+    width: 60px;
+    height: 3px;
+    background: #FFA501;
+    margin: 25px auto 0 auto;
+}
